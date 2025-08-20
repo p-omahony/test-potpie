@@ -1,10 +1,20 @@
-# utils.py
+"""
+Utility functions for printing lines of "=" characters.
+"""
+
 def print_line():
-    """Prints a single line of 50 equals signs."""
-    print(50 * "=")
+    """
+    Print a single line of 50 "=" characters.
+    """
+    print("=" * 50)
 
 def print_n_lines(n: int):
-    """Prints `n` lines of 50 equals signs each."""
+    """
+    Print `n` lines of 50 "=" characters each.
+
+    Args:
+        n (int): Number of lines to print.
+    """
     for _ in range(n):
         print_line()
 
